@@ -5,7 +5,7 @@
 		"AWS::CloudFormation::Interface": {
 			"ParameterGroups": [{
 				"Label": {
-					"default": "VPC configuration parameters"
+					"default": "VPC configuration parameters1"
 				},
 				"Parameters": ["VPCCIDR",
 				"PublicSubnetCIDR",
