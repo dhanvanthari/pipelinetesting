@@ -3,4 +3,4 @@ echo "Running the script now ...!!!"
 OS=$(cat /etc/lsb-release)
 echo "the os details are : $OS"
 echo "testingdsdfdg"
-echo hostname
+echo $(hostname)
