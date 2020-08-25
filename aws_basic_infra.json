@@ -238,7 +238,7 @@
 			"Properties": {
 			"ImageId"            : "ami-0080e4c5bc078760e",
 			"InstanceType"       : "t2.micro",
-			"KeyName"            : "LaptopKey",
+			"KeyName"            : "Laptopkey",
 			"SecurityGroupIds"     : [ {"Ref": "PublicInstanceSG"} ],
 			"SubnetId"           : {"Ref": "PublicSubnet"},
 			"Tags": [{
@@ -256,7 +256,7 @@
 		"Properties": {
 		"ImageId"            : { "Fn::FindInMap" : [ "RegionMap", { "Ref" : "AWS::Region" }, "HVM64"]},
 		"InstanceType"       : "t2.micro",
-		"KeyName"            : "LaptopKey",
+		"KeyName"            : "Laptopkey",
 		"SecurityGroupIds"     : [ {"Ref": "PublicInstanceSG"} ],
 		"SubnetId"           : {"Ref": "PublicSubnet"},
 		"Tags": [{
